@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.yillint.boot.bean.Person",
+      "sourceType": "com.yillint.boot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.yillint.boot.bean.Pet>>",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.yillint.boot.bean.Pet",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.yillint.boot.bean.Person"
+    },
+    {
+      "name": "person.user-name",
+      "type": "java.lang.String",
+      "sourceType": "com.yillint.boot.bean.Person"
+    }
+  ],
+  "hints": []
+}

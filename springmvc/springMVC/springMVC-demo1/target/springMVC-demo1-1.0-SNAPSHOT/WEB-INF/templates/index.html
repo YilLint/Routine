@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<a th:href="@{/target}">访问目标页面target.html</a>
+<!--这里加th：和@{}的原因时，连接由浏览器解析，/绝对路径就会是localhost，没有
+      上下文路径，加上thyemeleaf这几个标签后就会自动添加了-->
+</body>
+</html>

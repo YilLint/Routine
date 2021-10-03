@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e2cc11f-1955-415b-94e7-bb4b1ab84167" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1vqGkQjLq9iLcQatc0tXyeneHHB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring5_dem03" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12706482" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot_practice\spring5" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem02\src" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem02\lib" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem01\src" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem01\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yillint.testdemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springboot_practice\spring5\spring5_dem01\src" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem01\src\com\yillint\testdemo" />
+      <recent name="D:\springboot_practice\spring5\spring5_dem01\src\com\yillint" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestSpring5Demo1.test4">
+    <configuration name="TestSpring5Demo1.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_dem02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.test.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testBean3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_dem02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.test.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testBean3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testColletion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_dem02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.test.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testColletion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testColletion2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_dem02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.test.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testColletion2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5Demo1.testColletion3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_dem02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.test.TestSpring5Demo1" />
+      <option name="METHOD_NAME" value="testColletion3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpring5Demo1.test4" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testBean3" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testColletion2" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testColletion3" />
+        <item itemvalue="JUnit.TestSpring5Demo1.testColletion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e2cc11f-1955-415b-94e7-bb4b1ab84167" name="Default Changelist" comment="" />
+      <created>1627282370633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627282370633</updated>
+      <workItem from="1627282380760" duration="1870000" />
+      <workItem from="1627298509453" duration="5857000" />
+      <workItem from="1627376947626" duration="1092000" />
+      <workItem from="1627429189028" duration="105000" />
+      <workItem from="1627895573285" duration="3065000" />
+      <workItem from="1627953124491" duration="2424000" />
+      <workItem from="1627957271763" duration="2226000" />
+      <workItem from="1627979209412" duration="61000" />
+      <workItem from="1628215647580" duration="3132000" />
+      <workItem from="1628234500829" duration="607000" />
+      <workItem from="1628386481698" duration="3883000" />
+      <workItem from="1628409337062" duration="1233000" />
+      <workItem from="1629164177576" duration="5061000" />
+      <workItem from="1629191291744" duration="19000" />
+      <workItem from="1629290352143" duration="77000" />
+      <workItem from="1629290834969" duration="55000" />
+      <workItem from="1629510833154" duration="446000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1628389883260">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627304377899" />
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1628389883260" />
+    <state x="423" y="230" key="DetectedRootsChooserDialog" timestamp="1627291014995">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="423" y="230" key="DetectedRootsChooserDialog/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627291014995" />
+    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1629191309019">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627291033750" />
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1629191309019" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1628390593109">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1628390593109" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1628390593109">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1628390593109" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1628390593108">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1628390593108" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1628390593109">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1628390593109" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1627308196096">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1627308196096">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1627308196096">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1627308196096">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627308196096" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1629171781641">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627291040372" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1629171781641" />
+    <state x="349" y="252" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1627299557115">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="349" y="252" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627299557115" />
+    <state x="28" y="0" key="new project wizard" timestamp="1627429298965">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1627429298965" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1629189585625">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1629189585625" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1627958099802">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1280.720@0.0.1280.720" timestamp="1627958099802" />
+  </component>
+</project>

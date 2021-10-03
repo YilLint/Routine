@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--集合类型属性注入-->
+    <bean id="stu" class="com.yillint.colletiontype.Stu">
+        <!--属性注入-->
+        <!--数组-->
+        <property name="courses">
+            <array>
+                <value>java</value>
+                <value>sql</value>
+                <value>entirment</value>
+            </array>
+        </property>
+        <!--list-->
+        <property name="list">
+            <list>
+                <value>李四</value>
+                <value>小四</value>
+            </list>
+        </property>
+        <!--map-->
+        <property name="maps">
+            <map>
+                <entry key="JAVA" value="java"></entry>
+                <entry key="SPRING" value="spring"></entry>
+            </map>
+        </property>
+        <property name="sets">
+            <set>
+                <value>MySQL</value>
+                <value>Redis</value>
+            </set>
+        </property>
+
+        <!--list，值为对象-->
+        <property name="courseList">
+            <list>
+                <ref bean="course1"></ref>
+                <ref bean="course2"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <!--多个课程对象-->
+    <bean id="course1" class="com.yillint.colletiontype.Course">
+        <property name="cname" value="spring5"></property>
+    </bean>
+    <bean id="course2" class="com.yillint.colletiontype.Course">
+        <property name="cname" value="MyBatis"></property>
+    </bean>
+    
+
+</beans>

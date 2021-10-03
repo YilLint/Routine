@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitee" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ec1b930-c4fb-45fe-9da2-ee402528d7cf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-mapper" />
+        <option value="mybatis-config" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xz0NdhVqBi3BSEgdKNsXWnjYs5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch06-dynamic-sql" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12706482" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springboot_practice\MyBatis\mybatis-01\ch01-first\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yillint" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot_practice\MyBatis\mybatisworkspace" />
+      <recent name="D:\springboot_practice\MyBatis\mybatisworkspace\ch02-dao\src\main\java\com\yillint" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.myTest.testSelectIf">
+    <configuration name="myTest.testFor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.myTest" />
+      <option name="METHOD_NAME" value="testFor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest.testForeachOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.myTest" />
+      <option name="METHOD_NAME" value="testForeachOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest.testForeachTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.myTest" />
+      <option name="METHOD_NAME" value="testForeachTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest.testSelectIf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.myTest" />
+      <option name="METHOD_NAME" value="testSelectIf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest.testSelectWhere" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ch06-dynamic-sql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yillint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yillint" />
+      <option name="MAIN_CLASS_NAME" value="com.yillint.myTest" />
+      <option name="METHOD_NAME" value="testSelectWhere" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.myTest.testSelectIf" />
+        <item itemvalue="JUnit.myTest.testForeachTwo" />
+        <item itemvalue="JUnit.myTest.testSelectWhere" />
+        <item itemvalue="JUnit.myTest.testForeachOne" />
+        <item itemvalue="JUnit.myTest.testFor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ec1b930-c4fb-45fe-9da2-ee402528d7cf" name="Default Changelist" comment="" />
+      <created>1631342576159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631342576159</updated>
+      <workItem from="1631342577673" duration="749000" />
+      <workItem from="1631445724567" duration="1174000" />
+      <workItem from="1631612493040" duration="1986000" />
+      <workItem from="1631614611147" duration="4858000" />
+      <workItem from="1631703075544" duration="6536000" />
+      <workItem from="1631710763285" duration="38000" />
+      <workItem from="1631710835339" duration="17000" />
+      <workItem from="1631710947654" duration="131000" />
+      <workItem from="1631711204504" duration="381000" />
+      <workItem from="1631711650502" duration="419000" />
+      <workItem from="1631785590788" duration="6441000" />
+      <workItem from="1631794612694" duration="7000" />
+      <workItem from="1631794997378" duration="2265000" />
+      <workItem from="1631845253503" duration="1610000" />
+      <workItem from="1631862109736" duration="1871000" />
+      <workItem from="1631868457439" duration="597000" />
+      <workItem from="1631966477316" duration="3575000" />
+      <workItem from="1631971206897" duration="102000" />
+      <workItem from="1632013496156" duration="4027000" />
+      <workItem from="1632046389804" duration="6573000" />
+      <workItem from="1632054692312" duration="1238000" />
+      <workItem from="1632099761131" duration="10997000" />
+      <workItem from="1632115459519" duration="91000" />
+      <workItem from="1632115942338" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1631342613900">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1631342613900" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631849151368">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1631849151368" />
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1632048426294">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1632048426294" />
+    <state x="217" y="284" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631613667703">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="217" y="284" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.720@0.0.1280.720" timestamp="1631613667703" />
+    <state x="425" y="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1631613669992">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="425" y="241" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.720@0.0.1280.720" timestamp="1631613669992" />
+    <state x="442" y="115" key="FileChooserDialogImpl" timestamp="1632102292216">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="442" y="115" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632102292216" />
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom" timestamp="1632115288831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1632115288831" />
+    <state width="1237" height="276" key="GridCell.Tab.0.center" timestamp="1632115288831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1632115288831" />
+    <state width="1237" height="276" key="GridCell.Tab.0.left" timestamp="1632115288831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1632115288831" />
+    <state width="1237" height="276" key="GridCell.Tab.0.right" timestamp="1632115288831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="276" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1632115288831" />
+    <state width="1222" height="216" key="GridCell.Tab.1.bottom" timestamp="1631706812234">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="216" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1631706812234" />
+    <state width="1222" height="216" key="GridCell.Tab.1.center" timestamp="1631706812234">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="216" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1631706812234" />
+    <state width="1222" height="216" key="GridCell.Tab.1.left" timestamp="1631706812234">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="216" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1631706812234" />
+    <state width="1222" height="216" key="GridCell.Tab.1.right" timestamp="1631706812234">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1222" height="216" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1631706812234" />
+    <state x="308" y="64" key="NewModule_or_Project.wizard" timestamp="1632102295154">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="308" y="64" key="NewModule_or_Project.wizard/0.0.1280.720@0.0.1280.720" timestamp="1632102295154" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1632102305489">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1632102305489" />
+    <state x="186" y="90" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631617846230">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="186" y="90" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.720@0.0.1280.720" timestamp="1631617846230" />
+    <state x="339" y="45" width="603" height="630" key="find.popup" timestamp="1631613837260">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="339" y="45" width="603" height="630" key="find.popup/0.0.1280.720@0.0.1280.720" timestamp="1631613837260" />
+    <state x="49" y="0" key="new project wizard" timestamp="1632048047123">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="49" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632048047123" />
+    <state x="297" y="161" key="run.anything.popup" timestamp="1631790346293">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1631790346293" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../apache-maven-3.6.3/repository/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class</url>
+          <line>127</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

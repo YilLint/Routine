@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>首页</h1>
+<a th:href="@{/hello/testRequestMapping}">测试RequestMapping注解的位置</a><br>
+<a th:href="@{/testRequestMapping}">测试RequestMapping的value</a><br>
+<a th:href="@{/test}">测试RequestMapping的value</a><br>
+
+
+<a th:href="@{/test}">测试RequestMapping的method(get)</a><br>
+<form th:action="@{/test}" method="post">
+    <input type="submit" value="测试RequestMapping的method(post)">
+</form><br>
+
+
+<a th:href="@{/testGetMapping}">测试GETMapping的method</a><br>
+<form th:action="@{/testGetMapping}" method="post">
+    <input type="submit" value="测试GETMapping的method">
+</form><br>
+
+
+<a th:href="@{/testPut}">测试GETMapping的method</a><br>
+<form th:action="@{/testGetMapping}" method="post">
+    <input type="submit" value="测试form表单提交put请求">
+</form><br>
+
+<a th:href="@{/testParamsAndHeaders(username='admin',password=123456)}">测试RequestMapping的params注解</a>
+<!--?拼接参数会导致报错，可用括号拼接-->
+<br>
+
+<a th:href="@{/a1a/testAnt}">测试RequestMappint支持ant风格的迷糊匹配</a>
+<br>
+
+<a th:href="@{/testPath/1/admin}">测试@RequestMappint支持路径中的占位符</a>
+<br>
+
+</body>
+</html>

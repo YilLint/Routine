@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--组件扫描路径-->
+    <context:component-scan base-package="com.yillint.mvc"></context:component-scan>
+
+    <!-- 配置Thymeleaf视图解析器 -->
+    <bean id="viewResolver" class="org.thymeleaf.spring5.view.ThymeleafViewResolver">
+        <property name="order" value="1"/>
+        <property name="characterEncoding" value="UTF-8"/>
+        <property name="templateEngine">
+            <bean class="org.thymeleaf.spring5.SpringTemplateEngine">
+                <property name="templateResolver">
+                    <bean class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
+
+                        <!-- 视图前缀 -->
+                        <property name="prefix" value="/WEB-INF/templates/"/>
+
+                        <!-- 视图后缀 -->
+                        <property name="suffix" value=".html"/>
+                        <property name="templateMode" value="HTML5"/>
+                        <property name="characterEncoding" value="UTF-8" />
+                    </bean>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+
+    <!--视图控制器-->
+    <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
+
+    <!--默认处理器，处理静态资源-->
+    <mvc:default-servlet-handler/>
+
+    <!--springMVC开启注解-->
+    <mvc:annotation-driven/>
+
+
+    <!--拦截器-->
+    <mvc:interceptors>
+        <bean class="com.yillint.mvc.Intercepter.FirstInterceptor"></bean>
+        <bean class="com.yillint.mvc.Intercepter.SecondInterceptor"></bean>
+        <!--<bean class="com.yillint.mvc.Intercepter.FirstInterceptor"></bean>-->
+        <!--<ref bean="firstInterceptor"></ref>-->
+        <!--上面两种默认拦截所有controller即dispatcherServlet所处理的请求-->
+        <!--<mvc:interceptor>
+            <mvc:mapping path="/*"/>&lt;!&ndash; /*是一层目录，/**是多层了  &ndash;&gt;
+            <mvc:exclude-mapping path="/"/>
+            <ref bean="firstInterceptor"></ref>
+        </mvc:interceptor>-->
+    </mvc:interceptors>
+
+    <!--异常处理器-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <!--<property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.ArithmeticException">error</prop>
+            </props>
+        </property>
+        &lt;!&ndash;设置将异常信息共享在请求域中的键，根据键获取值&ndash;&gt;
+        <property name="exceptionAttribute" value="ex"></property>-->
+    </bean>
+
+</beans>

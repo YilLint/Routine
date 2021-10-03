@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置User对象创建-->
+    <bean id="user" class="com.yillint.User"></bean>
+
+    <!--set方法注入属性-->
+    <bean id="book" class="com.yillint.Book">
+        <!--使用property完成属性注入
+            name:类的属性名称
+            value:向属性注入的值
+        -->
+        <property name="bname" value="冥想一分钟等于熟睡一小时"></property>
+        <property name="bauthor" value="每一个修炼的人"></property>
+        <!--想要把地址设置NULL-->
+        <!--<property name="address">
+            <null/>
+        </property>-->
+        <!--属性值包含特殊符号
+            1 把<>进行转义  &lt;&gt;
+            2 把带特殊符号内容写道CDATA
+        -->
+        <property name="address">
+            <value><![CDATA[<<南京>>]]></value>
+        </property>
+    </bean>
+
+    <!--有参数构造注入属性-->
+    <bean id="orders" class="com.yillint.Orders">
+        <!--constructor-arg name="oname" value="computer"></constructor-arg-->
+        <constructor-arg name="address" value="China"></constructor-arg>
+        <constructor-arg index="0" value="computers"></constructor-arg>
+    </bean>
+
+
+</beans>

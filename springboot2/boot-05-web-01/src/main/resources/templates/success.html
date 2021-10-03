@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${msg}">哈哈</h1>
+<h2>
+    <a href="www.atguigu.com" th:href="${link}">去百度</a> <br/>
+    <a href="www.atguigu.com" th:href="@{/link}">去百度2(绝对路径，绝对就是从根路径而言，加上content——path)</a>
+    <a href="www.atguigu.com" th:href="@{link}">去百度3(相对路径)</a>
+</h2>
+</body>
+</html>

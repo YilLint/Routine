@@ -1,0 +1,5 @@
+person:
+  name: "张三"
+
+server:
+  port: 7000

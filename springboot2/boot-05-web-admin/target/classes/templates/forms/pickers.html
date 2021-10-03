@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="ThemeBucket">
+  <link rel="shortcut icon" href="#" type="image/png">
+
+  <title>Pickers</title>
+
+  <!--pickers css-->
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-datepicker/css/datepicker-custom.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-timepicker/css/timepicker.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-colorpicker/css/colorpicker.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+
+    <div th:include="common :: commonheader"></div>
+</head>
+
+<body class="sticky-header">
+
+<section>
+    <!-- left side start-->
+    <div th:replace="common :: #leftmenu"></div>
+    <!-- left side end-->
+    
+    <!-- main content start-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div th:replace="common :: headermenu"></div>
+        <!-- header section end-->
+
+        <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Pickers Collection <small>date pickers, datetime pickers, time pickers and color pickers</small>
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#">Forms</a>
+                </li>
+                <li class="active"> Pickers Collection </li>
+            </ul>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Date Pickers
+                              <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <form action="#" class="form-horizontal ">
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Default Datepicker</label>
+                                    <div class="col-md-4 col-xs-11">
+                                        <input class="form-control form-control-inline input-medium default-date-picker"  size="16" type="text" value="" />
+                                        <span class="help-block">Select date</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Start with years viewMode</label>
+                                    <div class="col-md-4 col-xs-11">
+
+                                        <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"  class="input-append date dpYears">
+                                            <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
+                                                          <span class="input-group-btn add-on">
+                                                            <button class="btn btn-primary" type="button"><i class="fa fa-calendar"></i></button>
+                                                          </span>
+                                        </div>
+                                        <span class="help-block">Select date</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Months Only</label>
+                                    <div class="col-md-4 col-xs-11">
+                                        <div data-date-minviewmode="months" data-date-viewmode="years" data-date-format="mm/yyyy" data-date="102/2012"  class="input-append date dpMonths">
+                                            <input type="text" readonly="" value="02/2012" size="16" class="form-control">
+                                                          <span class="input-group-btn add-on">
+                                                            <button class="btn btn-primary" type="button"><i class="fa fa-calendar"></i></button>
+                                                          </span>
+                                        </div>
+
+
+                                        <span class="help-block">Select month only</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Date Range</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group input-large custom-date-range" data-date="13/07/2013" data-date-format="mm/dd/yyyy">
+                                            <input type="text" class="form-control dpd1" name="from">
+                                            <span class="input-group-addon">To</span>
+                                            <input type="text" class="form-control dpd2" name="to">
+                                        </div>
+                                        <span class="help-block">Select date range</span>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <section class="panel">
+                        <div class="panel-body">
+                            <a class="btn btn-primary" data-toggle="modal" href="#myModal2">
+                                Datepicker in Modal
+                            </a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                            <h4 class="modal-title">Datepicker in Modal</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="#" class="form-horizontal ">
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-4"> Date time picker</label>
+                                                    <div class="col-md-6">
+                                                        <input size="16" type="text" value="2012-06-15 14:45" readonly class="form_datetime form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-4">Default Datepicker</label>
+                                                    <div class="col-md-6 col-xs-11">
+                                                        <input class="form-control form-control-inline input-medium default-date-picker"  size="16" type="text" value="" />
+                                                        <span class="help-block">Select date</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-4">Start with years viewMode</label>
+                                                    <div class="col-md-6 col-xs-11">
+
+                                                        <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"  class="input-append date dpYears">
+                                                            <input type="text" readonly="" value="12-02-2012" size="16" class="form-control">
+                                                                      <span class="input-group-btn add-on">
+                                                                        <button class="btn btn-primary" type="button"><i class="fa fa-calendar"></i></button>
+                                                                      </span>
+                                                        </div>
+                                                        <span class="help-block">Select date</span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-4">Months Only</label>
+                                                    <div class="col-md-6 col-xs-11">
+                                                        <div data-date-minviewmode="months" data-date-viewmode="years" data-date-format="mm/yyyy" data-date="102/2012"  class="input-append date dpMonths">
+                                                            <input type="text" readonly="" value="02/2012" size="16" class="form-control">
+                                                                      <span class="input-group-btn add-on">
+                                                                        <button class="btn btn-primary" type="button"><i class="fa fa-calendar"></i></button>
+                                                                      </span>
+                                                        </div>
+
+
+                                                        <span class="help-block">Select month only</span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-md-4">Date Range</label>
+                                                    <div class="col-md-6">
+                                                        <div class="input-group input-large custom-date-range" data-date="13/07/2013" data-date-format="mm/dd/yyyy">
+                                                            <input type="text" class="form-control dpd1" name="from">
+                                                            <span class="input-group-addon">To</span>
+                                                            <input type="text" class="form-control dpd2" name="to">
+                                                        </div>
+                                                        <span class="help-block">Select date range</span>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+
+
+                                        <form class="form-horizontal  " action="#">
+                                            <div class="form-group">
+                                                <label class="control-label col-md-4">Default Timepicker</label>
+                                                <div class="col-md-6">
+                                                    <div class="input-group bootstrap-timepicker">
+                                                        <input type="text" class="form-control timepicker-default">
+                                                            <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label col-md-4">24hr Timepicker</label>
+                                                <div class="col-md-6">
+                                                    <div class="input-group bootstrap-timepicker">
+                                                        <input type="text" class="form-control timepicker-24">
+                                                            <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+
+
+
+                                        <div class="modal-footer">
+                                            <button data-dismiss="modal" class="btn btn-primary" type="button">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Datetime Pickers
+                             <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal  " action="#">
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Default input Datetimepicker</label>
+                                    <div class="col-md-4">
+                                        <input size="16" type="text" value="2012-06-15 14:45" readonly class="form_datetime form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-3"> Component Datetimepicker</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group date form_datetime-component">
+                                            <input type="text" class="form-control" readonly="" size="16">
+                                                            <span class="input-group-btn">
+                                                            <button type="button" class="btn btn-primary date-set"><i class="fa fa-calendar"></i></button>
+                                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Advance Datetimepicker</label>
+                                    <div class="col-md-4">
+                                        <div data-date="2012-12-21T15:25:00Z" class="input-group date form_datetime-adv">
+                                            <input type="text" class="form-control" readonly="" size="16">
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-primary date-reset"><i class="fa fa-times"></i></button>
+                                                <button type="button" class="btn btn-success date-set"><i class="fa fa-calendar"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Meridian Format</label>
+                                    <div class="col-md-4">
+                                        <div data-date="2012-12-21T15:25:00Z" class="input-group date form_datetime-meridian">
+                                            <input type="text" class="form-control" readonly="" size="16">
+                                            <div class="input-group-btn">
+                                                <button type="button" class="btn btn-primary date-reset"><i class="fa fa-times"></i></button>
+                                                <button type="button" class="btn btn-success date-set"><i class="fa fa-calendar"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Time Pickers
+                             <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal  " action="#">
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Default Timepicker</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group bootstrap-timepicker">
+                                            <input type="text" class="form-control timepicker-default">
+                                                            <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">24hr Timepicker</label>
+                                    <div class="col-md-4">
+                                        <div class="input-group bootstrap-timepicker">
+                                            <input type="text" class="form-control timepicker-24">
+                                                            <span class="input-group-btn">
+                                                            <button class="btn btn-default" type="button"><i class="fa fa-clock-o"></i></button>
+                                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Color Pickers
+                            <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <form class="form-horizontal  " action="#">
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">Default</label>
+                                    <div class="col-md-4">
+                                        <input type="text" class="colorpicker-default form-control" value="#8fff00" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">RGBA</label>
+                                    <div class="col-md-4">
+                                        <input type="text" class="colorpicker-rgba form-control" value="rgb(0,194,255,0.78)" data-color-format="rgba" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3">As Component</label>
+                                    <div class="col-md-4 col-xs-11">
+                                        <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="input-append colorpicker-default color">
+                                            <input type="text" readonly="" value="" class="form-control">
+                                              <span class=" input-group-btn add-on">
+                                                  <button class="btn btn-default" type="button" style="padding: 8px">
+                                                      <i style="background-color: rgb(124, 66, 84);"></i>
+                                                  </button>
+                                              </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--body wrapper end-->
+
+        <!--footer section start-->
+        <footer>
+            2020 &copy; AdminEx by ThemeBucket </a>
+        </footer>
+        <!--footer section end-->
+
+
+    </div>
+    <!-- main content end-->
+</section>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<div th:replace="common :: #commonscript"></div>
+
+<!--pickers plugins-->
+<script type="text/javascript" src="js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+
+<!--pickers initialization-->
+<script src="js/pickers-init.js"></script>
+
+
+
+</body>
+</html>

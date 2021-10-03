@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitee" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edebbe26-90df-4805-b826-59c50c7cca56" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1viezfgiSPnt41vjdr1EP2b7oWJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yillint-hello-spring-boot-starter" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="YillintHelloSpringBootStarterAutoconfigureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yillint-hello-spring-boot-starter-autoconfigure" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yillint.hello.YillintHelloSpringBootStarterAutoconfigureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edebbe26-90df-4805-b826-59c50c7cca56" name="Default Changelist" comment="" />
+      <created>1627049613197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627049613197</updated>
+      <workItem from="1627049621388" duration="3642000" />
+      <workItem from="1627093593514" duration="280000" />
+      <workItem from="1627130336146" duration="1929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1627050078653">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627050078653" />
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1627051213745">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="446" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627051213745" />
+    <state x="421" y="94" key="FileChooserDialogImpl" timestamp="1627049948073">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="94" key="FileChooserDialogImpl/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627049948073" />
+    <state width="1237" height="322" key="GridCell.Tab.0.bottom" timestamp="1627093885623">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.0.bottom/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627093885623" />
+    <state width="1237" height="322" key="GridCell.Tab.0.center" timestamp="1627093885622">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.0.center/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627093885622" />
+    <state width="1237" height="322" key="GridCell.Tab.0.left" timestamp="1627093885622">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.0.left/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627093885622" />
+    <state width="1237" height="322" key="GridCell.Tab.0.right" timestamp="1627093885623">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="322" key="GridCell.Tab.0.right/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627093885623" />
+    <state x="28" y="0" key="new project wizard" timestamp="1627051799716">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.720/1920.0.1920.1080@0.0.1280.720" timestamp="1627051799716" />
+  </component>
+</project>

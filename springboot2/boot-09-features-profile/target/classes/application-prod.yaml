@@ -1,0 +1,5 @@
+person:
+  name: "张三点半"
+
+server:
+  port: 8000

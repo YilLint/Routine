@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.yilllint.boot.Boot05Web01ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.763 s - in com.yilllint.boot.Boot05Web01ApplicationTests

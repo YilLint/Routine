@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="ThemeBucket">
+  <link rel="shortcut icon" href="#" type="image/png">
+
+  <title>Editors</title>
+
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
+
+    <div th:include="common :: commonheader"></div>
+</head>
+
+<body class="sticky-header">
+
+<section>
+    <!-- left side start-->
+    <div th:replace="common :: #leftmenu"></div>
+    <!-- left side end-->
+    
+    <!-- main content start-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div th:replace="common :: headermenu"></div>
+        <!-- header section end-->
+
+        <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Editors
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="#">Forms</a>
+                </li>
+                <li class="active"> Editors </li>
+            </ul>
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            CKEditor
+                            <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <div class="form">
+                                <form action="#" class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <textarea class="form-control ckeditor" name="editor1" rows="6"></textarea>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            WYSIWYG Editors
+                             <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+                        </header>
+                        <div class="panel-body">
+                            <form action="#" class="form-horizontal ">
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <textarea class="wysihtml5 form-control" rows="9"></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--body wrapper end-->
+
+        <!--footer section start-->
+        <footer>
+            2020 &copy; AdminEx by ThemeBucket </a>
+        </footer>
+        <!--footer section end-->
+
+
+    </div>
+    <!-- main content end-->
+</section>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<div th:replace="common :: #commonscript"></div>
+
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+
+<script type="text/javascript" src="js/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
+<script type="text/javascript" src="js/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
+
+
+
+<script>
+    jQuery(document).ready(function(){
+         $('.wysihtml5').wysihtml5();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+com\yillint\hello\bean\HelloPeoperties.class
+com\yillint\hello\service\HelloService.class
+com\yillint\hello\auto\HelloServiceAutoConfiguration.class

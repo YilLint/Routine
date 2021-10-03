@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitee" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="204c4be5-cfe8-431d-9928-5682c784b94c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wvV9zChc3NscfeTQX50uR42Cqy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.12706482" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="204c4be5-cfe8-431d-9928-5682c784b94c" name="Default Changelist" comment="" />
+      <created>1629338902876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629338902876</updated>
+      <workItem from="1629338904061" duration="17000" />
+      <workItem from="1629448602021" duration="170000" />
+      <workItem from="1629451118295" duration="60000" />
+      <workItem from="1629451235700" duration="219000" />
+      <workItem from="1629461753002" duration="703000" />
+      <workItem from="1629639811647" duration="692000" />
+      <workItem from="1629772881680" duration="1246000" />
+      <workItem from="1630073044342" duration="779000" />
+      <workItem from="1630115896308" duration="1287000" />
+      <workItem from="1630200535583" duration="611000" />
+      <workItem from="1632114785062" duration="27000" />
+      <workItem from="1632115979845" duration="324000" />
+      <workItem from="1632310207370" duration="395000" />
+      <workItem from="1632391761564" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="252" key="#Tomcat_Server" timestamp="1632310387977">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="395" y="252" key="#Tomcat_Server/0.0.1280.720@0.0.1280.720" timestamp="1632310387977" />
+    <state x="421" y="116" key="FileChooserDialogImpl" timestamp="1632310574698">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1632310574698" />
+    <state x="96" y="5" width="1038" height="695" key="SettingsEditor" timestamp="1632310501665">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="96" y="5" width="1038" height="695" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1632310501665" />
+    <state x="28" y="21" key="new project wizard" timestamp="1632310615810">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="28" y="21" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1632310615810" />
+  </component>
+</project>

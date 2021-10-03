@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yillint.dao.StudentDao">
+    <!--使用insert，update，delete，select标签写sql-->
+
+    <!--全类名parameterType="java.lang.Integer"-->
+    <!--mybatis的别类名integer"-->
+    <!--这个其实可以不写-->
+
+    <select id="selectStudentIf" resultType="com.yillint.domain.Student">
+        select * from student
+        where 1 = 1
+        <if test="name != null and name != '' ">
+            and name = #{name}
+        </if>
+        <if test=" age > 0 ">
+            and age &gt; #{age}
+        </if>
+    </select>
+
+    <select id="selectStudentWhere" resultType="com.yillint.domain.Student">
+        select * from student
+        <where>
+            <if test="name !=null and name != ''">
+                or name = #{name}
+            </if>
+            <if test="age > 0">
+                or age &lt; #{age}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="selectForeachOne" resultType="com.yillint.domain.Student">
+        <include refid="selectStudent"/>
+        <where>
+            <if test="list != null and list.size > 0">
+                id in
+                <foreach collection="list" open="(" close=")" separator="," item="myid">
+                     #{myid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+    <select id="selectTest" parameterType="java.lang.StringBuffer"
+            resultType="com.yillint.domain.Student">
+        ${sql}
+    </select>
+
+
+    <select id="selectForeachTwo" resultType="com.yillint.domain.Student">
+        select <include refid="studentFieldList"/> from student
+        <if test="list != null and list.size > 0">
+            where id in
+            <foreach collection="list" open="(" close=")" separator="," item="stu">
+                #{stu.id}
+            </foreach>
+        </if>
+    </select>
+
+
+    <sql id="selectStudent">
+        select * from student
+    </sql>
+
+    <sql id="studentFieldList">
+        id,name,email
+    </sql>
+
+
+
+</mapper>

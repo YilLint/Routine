@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yillint.dao.StudentDao">
+
+    <update id="updateStudent">
+        update student set name = #{name},age = #{age} where id = #{id}
+    </update>
+    <!--使用insert，update，delete，select标签写sql-->
+
+    <!--全类名parameterType="java.lang.Integer"-->
+    <!--mybatis的别类名integer"-->
+    <!--这个其实可以不写-->
+    <select id="selectById" parameterType="integer"
+            resultType="student">
+        select * from student where id = #{id}
+    </select>
+
+    <select id="selectByemail" resultType="com.yillint.domain.Student">
+        select * from student where email = #{studentEmail}
+    </select>
+
+
+    <!--多个简单参数-->
+    <select id="selectByNameOrAge" resultType="com.yillint.domain.Student">
+        select * from student where name = #{myname} or age = #{myage}
+    </select>
+
+
+    <select id="selectByObject" resultType="com.yillint.domain.Student">
+        select * from student where name = #{name} or age = #{age}
+    </select>
+
+
+    <select id="selectByPosition" resultType="com.yillint.domain.Student">
+        select * from student where name = #{param1} or age = #{param2}
+    </select>
+
+
+    <select id="selectStudentByMap" resultType="com.yillint.domain.Student">
+        select * from student where name = #{myname} or age = #{myage}
+    </select>
+
+    <select id="queryStudent" resultType="com.yillint.domain.Student">
+        select * from student where name = ${myname}
+    </select>
+
+
+    <select id="queryStudentByColName" resultType="com.yillint.domain.Student">
+        select * from student order by ${cloName} desc
+    </select>
+
+
+</mapper>

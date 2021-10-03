@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Info</title>
+</head>
+<body>
+
+    <table id="datatable" border="1" cellpadding="0" cellspacing="0" style="text-align: center">
+        <tr>
+            <th colspan="5">Employee Info</th>
+        </tr>
+        <tr>
+            <th>id</th>
+            <th>lastName</th>
+            <th>email</th>
+            <th>gender</th>
+            <th>options(<a th:href="@{/toAdd}">add</a> )</th>
+            <!--这里不能直接写employee，这里是实现跳转，写那个的话，就相当的和查询所有员工信息访问路径一样了，
+            而且请求方式也一样。-->
+        </tr>
+        <tr th:each="employee : ${employeeList}">
+            <!--<th></th>  如果直接将属性卸载th里面就会当作文本解析 -->
+            <th th:text="${employee.id}"></th>
+            <th th:text="${employee.lastName}"></th>
+            <th th:text="${employee.email}"></th>
+            <th th:text="${employee.gender}"></th>
+            <td>
+                <a @click="deleteEmployee" th:href="@{'/employee/'+${employee.id}}">delete</a>
+                <!--<a th:href="@{/employee/}+${employee.id}">delete</a>-->
+                <a th:href="@{'/employee/'+${employee.id}}">update</a>
+                <!--跳转路径不能写成view controller，因为我们还要会先-->
+            </td>
+        </tr>
+    </table>
+
+    <form id="deleteForm" method="post">
+        <input type="hidden" name="_method" value="delete">
+    </form>
+
+
+    <script type="text/javascript" th:src="@{/static/js/vue.js}"></script>
+    <!--
+    vue.js会找不到的，因为尽管重新打包到target里面了，但是这个访问请求会被在web.xml中配置的SpringMVC的前端处理器
+    Dispatcher Servlet处理，在哪里我们设置的拦截路径是“/”，代表所有除了.jsp的文件，
+    但是这个Servlet是不能处理静态资源的，要用默认的那个servlet处理。
+    所以这里的顺序是，先是我们配置的springmvc的前端控制器处理，找不到，再交由默认servlet处理。
+    -->
+    <script type="text/javascript">
+        var vue = new Vue({
+            el:"#datatable",
+            methods:{
+                deleteEmployee:function (event){
+                    //根据id获取表单
+                    var deleteForm = document.getElementById("deleteForm");
+                    //将触发点击事件的超链接的href属性赋值给表单的action
+                    deleteForm.action = event.target.href;
+                    //提交表单
+                    deleteForm.submit();
+                    //取消超链接的默认行为
+                    event.preventDefault();
+                }
+            }
+        })
+    </script>
+
+</body>
+</html>

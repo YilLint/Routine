@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.yillint.boot.Boot09FeaturesProfileApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.754 s - in com.yillint.boot.Boot09FeaturesProfileApplicationTests

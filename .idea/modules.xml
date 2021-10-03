@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyBatis/mybatisworkspace/ch06-dynamic-sql/ch06-dynamic-sql.iml" filepath="$PROJECT_DIR$/MyBatis/mybatisworkspace/ch06-dynamic-sql/ch06-dynamic-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot_practice.iml" filepath="$PROJECT_DIR$/.idea/springboot_practice.iml" />
+    </modules>
+  </component>
+</project>

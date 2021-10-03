@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.myservice",
+      "type": "com.yillint.admin.actuator.endpoint.MyServiceEndPoint",
+      "sourceType": "com.yillint.admin.actuator.endpoint.MyServiceEndPoint"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.myservice.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.yillint.admin.actuator.endpoint.MyServiceEndPoint",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.myservice.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myservice endpoint.",
+      "sourceType": "com.yillint.admin.actuator.endpoint.MyServiceEndPoint",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

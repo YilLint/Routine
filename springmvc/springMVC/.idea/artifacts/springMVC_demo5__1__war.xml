@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springMVC-demo5 (1):war">
+    <output-path>$PROJECT_DIR$/springMVC-annotation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springMVC-demo5 (1)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springMVC-demo5-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="springMVC-demo5 (1):war exploded" />
+    </root>
+  </artifact>
+</component>

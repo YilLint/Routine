@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitee" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e217f0c8-5ede-4f9b-8118-bc7d143f286b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1veueiGFcfGKnSFuUNG5wiwp6Kh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Boot05AdminserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-05-adminserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yillint.boot.Boot05AdminserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e217f0c8-5ede-4f9b-8118-bc7d143f286b" name="Default Changelist" comment="" />
+      <created>1626935010518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626935010518</updated>
+      <workItem from="1626935012011" duration="4425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="370" key="GridCell.Tab.0.bottom" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state width="1237" height="370" key="GridCell.Tab.0.center" timestamp="1626940146831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1626940146831" />
+    <state width="1237" height="370" key="GridCell.Tab.0.left" timestamp="1626940146831">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1626940146831" />
+    <state width="1237" height="370" key="GridCell.Tab.0.right" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state width="1237" height="370" key="GridCell.Tab.1.bottom" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state width="1237" height="370" key="GridCell.Tab.1.center" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state width="1237" height="370" key="GridCell.Tab.1.left" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state width="1237" height="370" key="GridCell.Tab.1.right" timestamp="1626940146832">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="370" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1626940146832" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1626937208958">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1626937208958" />
+    <state x="19" y="19" key="new project wizard" timestamp="1626940141393">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="19" y="19" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1626940141393" />
+  </component>
+</project>

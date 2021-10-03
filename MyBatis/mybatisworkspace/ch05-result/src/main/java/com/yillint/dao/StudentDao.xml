@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yillint.dao.StudentDao">
+    <!--使用insert，update，delete，select标签写sql-->
+
+    <!--全类名parameterType="java.lang.Integer"-->
+    <!--mybatis的别类名integer"-->
+    <!--这个其实可以不写-->
+    <select id="selectById" parameterType="integer"
+            resultType="com.yillint.domain.Student">
+        select * from student where id = #{id}
+    </select>
+
+    <!--使用resultmap定义列和属性的关系
+        id：为名
+        type：java类型全限定名称
+    -->
+    <resultMap id="CustomMap" type="com.yillint.vo.CustomObject">
+        <!--主键列-->
+        <id column="id" property="cid"/>
+        <!--非主键列-->
+        <result column="name" property="cname"/>
+        <!--列名和属性名一样可以不配置-->
+    </resultMap>
+
+    <!--resultType是自定义的，要和数据库关系的属性名一致才能把返回结果set赋值给创建的resultType对象-->
+    <select id="selectById2" resultMap="CustomMap">
+        select * from student where id = #{stuid}
+    </select>
+
+
+    <!--使用列别名-->
+    <select id="selectById3" resultType="com.yillint.vo.CustomObject">
+        select id as cid, name as cname ,email,age from student where id = #{stuid}
+    </select>
+
+
+
+    <select id="countStudent" resultType="java.lang.Long">
+        select count(*) from student
+    </select>
+
+    <!--map返回值最多只能一个元组
+
+    输入一个省份的名称，输出省份及其所有城市
+    select p.name,c.name
+    form province p
+    join city c
+    on c.provinced = p.id
+    where p.id = #{}
+    -->
+    <select id="selectMap" resultType="java.util.HashMap">
+        select * from student where id = #{id}
+    </select>
+
+
+    <select id="selectLikeOne" resultType="com.yillint.domain.Student">
+        select * from student where name like #{name}
+    </select>
+
+    <select id="selectLikeTwo" resultType="com.yillint.domain.Student">
+        select * from student where name like "%" #{name} "%"
+    </select>
+
+</mapper>
